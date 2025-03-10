@@ -1,0 +1,2 @@
+npm init -y //cria om arquivo packpage.json
+npm i json-server // instala a dependencia json-server
