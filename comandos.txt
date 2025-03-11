@@ -1,0 +1,9 @@
+node:
+
+npm init -y //cria om arquivo packpage.json
+npm i json-server // instala a dependencia json-server
+
+angular:
+
+npm i -g @angular/cli
+ng new frontend --minimal
