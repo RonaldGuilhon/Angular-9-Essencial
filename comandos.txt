@@ -9,3 +9,5 @@ npm i -g @angular/cli
 ng new frontend --minimal
 ng add @angular/material
 ng g c components/template/header
+ng g c components/template/footer
+ng generate component components/template/nav
