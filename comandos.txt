@@ -11,3 +11,4 @@ ng add @angular/material
 ng g c components/template/header
 ng g c components/template/footer
 ng generate component components/template/nav
+ng generate component views/home
