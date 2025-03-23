@@ -14,3 +14,4 @@ ng generate component components/template/nav
 ng generate component views/home
 ng generate component views/product-crud
 ng g d directives/red
+ng g d directives/for
