@@ -14,8 +14,5 @@ export class ProductCreateComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  fazerAlgo(): void {
-    console.log('Fazendo Algo!')
-  }
 
 }
