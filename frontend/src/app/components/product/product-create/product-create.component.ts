@@ -8,12 +8,16 @@ import { ProductService } from '../product.service';
 })
 export class ProductCreateComponent implements OnInit {
 
- 
+
 
   constructor(private ProductCreatService: ProductService) { }
 
   ngOnInit(): void {
+
   }
 
+  createProduct(): void {
+    this.ProductCreatService.showMessage('Operação executada com sucesso!')
+  }
 
 }
