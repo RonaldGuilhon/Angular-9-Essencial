@@ -20,7 +20,7 @@ export class ProductService {
     })
   }
 
-  cliente(product: Product): Observable<Product> {  
+  create(product: Product): Observable<Product> {  
     return this.http.post<Product>(this.baseUrl, product)  
   }
 }
